@@ -12,8 +12,7 @@ public class CoreCompetency extends JobField {
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
-        if (!(o instanceof CoreCompetency)) return false;
-        CoreCompetency coreCompetency = (CoreCompetency) o;
+        if (!(o instanceof CoreCompetency coreCompetency)) return false;
         return super.getId() == coreCompetency.getId();
     }
 
@@ -23,5 +22,5 @@ public class CoreCompetency extends JobField {
     }
 }
 
-   .
+
 

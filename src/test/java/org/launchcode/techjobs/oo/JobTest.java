@@ -19,7 +19,7 @@ public class JobTest {
 
    @Test
     public void testJobConstructorSetsAllFields() {
-       Job tester = new Job("Product tester", new Employer("ACME"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
+       Job tester = new Job("Product tester", new Employer ("ACME"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
         assertTrue(tester.getCoreCompetency() instanceof CoreCompetency);
         assertEquals(tester.getName(), "Product tester");
         assertTrue(tester.getEmployer() instanceof Employer);
@@ -41,4 +41,10 @@ public class JobTest {
         Job jobish = new Job("Product tester", new Employer("ACME"),new Location("St. Louis"), new PositionType("QC"), new CoreCompetency("Persistance"));
         assertNotEquals(jobby.getId(), jobish.getId(), .001);
     }
+
+    /*@Test
+    public void testToStringStartsAndEndsWithNewLine() {
+
+    }
+*/
 }

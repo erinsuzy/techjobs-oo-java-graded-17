@@ -2,7 +2,7 @@ package org.launchcode.techjobs.oo;
 
 import java.util.Objects;
 
-import static jdk.internal.org.jline.utils.InfoCmp.Capability.newline;
+
 
 public class Job {
 
@@ -96,13 +96,6 @@ public class Job {
 
     @Override
     public String toString() {
-        String jobInfo = System.lineSeparator();
-        return "Job Information: " + newline +
-                "Job id: " + id + newline +
-                "Job name: " + name + newline +
-                "Employer: " + employer + newline +
-                "Position Type: " + positionType + newline +
-                "Location: " + location + newline +
-                "Core competency: " + coreCompetency;
+        return null;
     }
 }
