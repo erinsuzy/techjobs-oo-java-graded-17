@@ -20,16 +20,16 @@ public class JobTest {
    @Test
     public void testJobConstructorSetsAllFields() {
        Job tester = new Job("Product tester", new Employer ("ACME"), new Location("Desert"), new PositionType("Quality control"), new CoreCompetency("Persistence"));
-        assertTrue(tester.getCoreCompetency() instanceof CoreCompetency);
+       assertNotNull(tester.getCoreCompetency());
         assertEquals(tester.getName(), "Product tester");
-        assertTrue(tester.getEmployer() instanceof Employer);
-        assertEquals(tester.getEmployer(), "ACME");
-        assertTrue(tester.getLocation() instanceof Location);
-        assertEquals(tester.getLocation(), "Desert");
-        assertTrue(tester.getPositionType() instanceof PositionType);
-        assertEquals(tester.getPositionType(), "Quality control");
+       assertNotNull(tester.getEmployer());
+        assertEquals(tester.getEmployer().getValue(), "ACME");
+       assertNotNull(tester.getLocation());
+        assertEquals(tester.getLocation().getValue(), "Desert");
+       assertNotNull(tester.getPositionType());
+        assertEquals(tester.getPositionType().getValue(), "Quality control");
         assertTrue(tester.getId() != 0);
-        assertEquals(tester.getCoreCompetency(), "Persistence");
+        assertEquals(tester.getCoreCompetency().getValue(), "Persistence");
 
         
     }
