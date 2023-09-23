@@ -5,29 +5,23 @@ import java.util.Objects;
 public class CoreCompetency extends JobField {
 
 
-    public CoreCompetency(int aId, int aNextId, String aValue) {
-        super(aId, aNextId, aValue);
-
+    public CoreCompetency(String value) {
+        super(value);
     }
-
-
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (!(o instanceof CoreCompetency)) return false;
-        CoreCompetency that = (CoreCompetency) o;
-        int id = 0;
-        return id == that.getId();
+        CoreCompetency coreCompetency = (CoreCompetency) o;
+        return super.getId() == coreCompetency.getId();
     }
 
     @Override
     public int hashCode() {
-       int id = 0;
-        return Objects.hash(id);
+        return Objects.hash(getId());
     }
 }
 
-    // TODO: Use the "Generate" tool to add a getter and setter for the 'value' field but
-    //  ONLY a getter for the 'id' field.
+   .
 

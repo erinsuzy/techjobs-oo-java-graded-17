@@ -8,12 +8,10 @@ public abstract class JobField {
     private String value;
 
 
-    public JobField(int aId, int aNextId, String aValue) {
-        id = aId;
-        nextId = aNextId;
-        aId = aNextId;
-        aNextId++;
-        value = aValue;
+    public JobField(String value){
+        this.id = nextId;
+        this.value = value;
+        nextId++;
 
     }
 
@@ -22,7 +20,9 @@ public abstract class JobField {
     }
 
 
-
+    public static int getNextId(){
+        return nextId;
+    }
 
     public String toString() {
         return value;
@@ -32,7 +32,7 @@ public abstract class JobField {
         return value;
     }
 
-    public void setValue(String aValue) {
-        this.value = aValue;
+    public void setValue(String value){
+        this.value = value;
     }
 }
