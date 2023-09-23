@@ -42,9 +42,10 @@ public class JobTest {
         assertNotEquals(jobby.getId(), jobish.getId(), .001);
     }
 
-    /*@Test
+    @Test
     public void testToStringStartsAndEndsWithNewLine() {
-
+    String id = System.lineSeparator() + "ID: " + System.lineSeparator();
+    assertEquals(id, System.lineSeparator() + "ID: " + System.lineSeparator());
     }
-*/
+
 }

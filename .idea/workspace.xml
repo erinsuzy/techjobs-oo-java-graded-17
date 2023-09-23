@@ -5,6 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="59ff47a6-ece6-4e2e-b777-6247aa1f282e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Job.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Job.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/org/launchcode/techjobs/oo/JobTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/launchcode/techjobs/oo/JobTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +61,7 @@
     &quot;last_opened_file_path&quot;: &quot;C:/Users/erins/OneDrive/Classwork&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.JobTest.testJobConstructorSetsAllFields">
+  <component name="RunManager" selected="Gradle.JobTest.testToStringStartsAndEndsWithNewLine">
     <configuration name="JobTest.testJobConstructorSetsAllFields" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -84,7 +86,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TestTaskTwo.testCoreCompetencyHasIdGetter" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="JobTest.testToStringStartsAndEndsWithNewLine" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -97,7 +99,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.launchcode.techjobs.oo.TestTaskTwo.testCoreCompetencyHasIdGetter&quot;" />
+            <option value="&quot;org.launchcode.techjobs.oo.JobTest.testToStringStartsAndEndsWithNewLine&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -193,7 +195,7 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Gradle.TestTaskTwo.testCoreCompetencyHasIdGetter" />
+      <item itemvalue="Gradle.JobTest.testToStringStartsAndEndsWithNewLine" />
       <item itemvalue="Gradle.TestTaskTwo.testCoreCompetencyHasValueAccessors" />
       <item itemvalue="Gradle.TestTaskTwo.testSecondLocationConstructorInitializesId" />
       <item itemvalue="Gradle.TestTaskTwo.testSecondLocationConstructorInitializesValue" />
@@ -202,11 +204,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.JobTest.testToStringStartsAndEndsWithNewLine" />
         <item itemvalue="Gradle.JobTest.testJobConstructorSetsAllFields" />
         <item itemvalue="Gradle.TestTaskTwo.testSecondLocationConstructorInitializesValue" />
         <item itemvalue="Gradle.TestTaskTwo.testSecondLocationConstructorInitializesId" />
         <item itemvalue="Gradle.TestTaskTwo.testCoreCompetencyHasValueAccessors" />
-        <item itemvalue="Gradle.TestTaskTwo.testCoreCompetencyHasIdGetter" />
       </list>
     </recent_temporary>
   </component>
@@ -220,16 +222,5 @@
       <updated>1685977091317</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/org/launchcode/techjobs/oo/JobTest.java</url>
-          <line>37</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

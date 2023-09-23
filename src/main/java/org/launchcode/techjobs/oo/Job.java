@@ -1,5 +1,7 @@
 package org.launchcode.techjobs.oo;
 
+import javax.swing.text.Position;
+import javax.swing.text.Style;
 import java.util.Objects;
 
 
@@ -96,6 +98,11 @@ public class Job {
 
     @Override
     public String toString() {
-        return null;
+        String idString = System.lineSeparator() + "ID: " + id + System.lineSeparator();
+        String nameString = System.lineSeparator() + "Name: " + name + System.lineSeparator();
+        String employerString = System.lineSeparator() + "Employer: " + employer + System.lineSeparator();
+        String locationString = System.lineSeparator() + "Location: " + location + System.lineSeparator();
+        String positionString = System.lineSeparator() + "Position Type: " + positionType + System.lineSeparator();
+        String competencyString = System.lineSeparator() + "Core Competency: " + coreCompetency + System.lineSeparator();
     }
 }
