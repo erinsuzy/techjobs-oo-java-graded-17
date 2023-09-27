@@ -1,5 +1,7 @@
 package org.launchcode.techjobs.oo;
 
+import org.w3c.dom.ls.LSOutput;
+
 import javax.swing.text.Position;
 import javax.swing.text.Style;
 
@@ -28,7 +30,7 @@ public class Job {
     }
 
     public Job(String name, Employer employer, Location location, PositionType positionType, CoreCompetency coreCompetency) {
-        this ();
+        this();
         this.name = name;
         this.employer = employer;
         this.location = location;
@@ -99,7 +101,7 @@ public class Job {
     }
 
     @Override
-    public String toString(){
+    public String toString() {
         String idString = System.lineSeparator() + "ID: " + id + System.lineSeparator();
         String nameString = System.lineSeparator() + "Name: " + name + System.lineSeparator();
         String employerString = System.lineSeparator() + "Employer: " + employer + System.lineSeparator();
@@ -114,16 +116,14 @@ public class Job {
         jobStr.add(positionString);
         jobStr.add(competencyString);
         for (String i : jobStr) {
-            if(name.isEmpty() || employer.getValue().isEmpty() || location.getValue().isEmpty() || positionType.getValue().isEmpty() || coreCompetency.getValue().isEmpty()) {
+            if (name.isEmpty() || employer.getValue().isEmpty() || location.getValue().isEmpty() || positionType.getValue().isEmpty() || coreCompetency.getValue().isEmpty()) {
                 return "Data not available";
-            } else System.out.println(i);
+            }
+
         }
-        return null;
 
+        return idString + nameString + employerString + locationString + positionString + competencyString;
     }
+}
 
-
-
-
-    }
 
