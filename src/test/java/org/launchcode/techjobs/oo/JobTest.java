@@ -48,4 +48,9 @@ public class JobTest {
     assertEquals(id, System.lineSeparator() + "ID: " + System.lineSeparator());
     }
 
+    @Test
+    public void testToStringContainsCorrectLabelsAndData () {
+
+    }
+
 }

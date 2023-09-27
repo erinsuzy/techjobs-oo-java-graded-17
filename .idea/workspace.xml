@@ -58,10 +58,10 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/erins/OneDrive/Classwork&quot;
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/erins/OneDrive/Classwork/hello-spring&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.JobTest.testToStringStartsAndEndsWithNewLine">
+  <component name="RunManager" selected="Gradle.TestTaskFive.testTestToStringStartsAndEndsWithNewLineExists">
     <configuration name="JobTest.testJobConstructorSetsAllFields" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -110,7 +110,7 @@
       <RunAsTest>true</RunAsTest>
       <method v="2" />
     </configuration>
-    <configuration name="TestTaskTwo.testCoreCompetencyHasValueAccessors" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="TestTaskFive.testTestToStringStartsAndEndsWithNewLineExists" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -123,7 +123,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.launchcode.techjobs.oo.TestTaskTwo.testCoreCompetencyHasValueAccessors&quot;" />
+            <option value="&quot;org.launchcode.techjobs.oo.TestTaskFive.testTestToStringStartsAndEndsWithNewLineExists&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -195,8 +195,8 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Gradle.TestTaskFive.testTestToStringStartsAndEndsWithNewLineExists" />
       <item itemvalue="Gradle.JobTest.testToStringStartsAndEndsWithNewLine" />
-      <item itemvalue="Gradle.TestTaskTwo.testCoreCompetencyHasValueAccessors" />
       <item itemvalue="Gradle.TestTaskTwo.testSecondLocationConstructorInitializesId" />
       <item itemvalue="Gradle.TestTaskTwo.testSecondLocationConstructorInitializesValue" />
       <item itemvalue="Gradle.JobTest.testJobConstructorSetsAllFields" />
@@ -204,11 +204,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.TestTaskFive.testTestToStringStartsAndEndsWithNewLineExists" />
         <item itemvalue="Gradle.JobTest.testToStringStartsAndEndsWithNewLine" />
         <item itemvalue="Gradle.JobTest.testJobConstructorSetsAllFields" />
         <item itemvalue="Gradle.TestTaskTwo.testSecondLocationConstructorInitializesValue" />
         <item itemvalue="Gradle.TestTaskTwo.testSecondLocationConstructorInitializesId" />
-        <item itemvalue="Gradle.TestTaskTwo.testCoreCompetencyHasValueAccessors" />
       </list>
     </recent_temporary>
   </component>
@@ -222,5 +222,20 @@
       <updated>1685977091317</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/org/launchcode/techjobs/oo/TestTaskFive.java</url>
+          <line>23</line>
+          <properties class="org.launchcode.techjobs.oo.TestTaskFive" method="testTestToStringStartsAndEndsWithNewLineExists">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

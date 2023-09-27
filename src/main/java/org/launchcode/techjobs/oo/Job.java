@@ -2,6 +2,8 @@ package org.launchcode.techjobs.oo;
 
 import javax.swing.text.Position;
 import javax.swing.text.Style;
+
+import java.util.ArrayList;
 import java.util.Objects;
 
 
@@ -97,12 +99,31 @@ public class Job {
     }
 
     @Override
-    public String toString() {
+    public String toString(){
         String idString = System.lineSeparator() + "ID: " + id + System.lineSeparator();
         String nameString = System.lineSeparator() + "Name: " + name + System.lineSeparator();
         String employerString = System.lineSeparator() + "Employer: " + employer + System.lineSeparator();
         String locationString = System.lineSeparator() + "Location: " + location + System.lineSeparator();
         String positionString = System.lineSeparator() + "Position Type: " + positionType + System.lineSeparator();
         String competencyString = System.lineSeparator() + "Core Competency: " + coreCompetency + System.lineSeparator();
+        ArrayList<String> jobStr = new ArrayList<>();
+        jobStr.add(idString);
+        jobStr.add(nameString);
+        jobStr.add(employerString);
+        jobStr.add(locationString);
+        jobStr.add(positionString);
+        jobStr.add(competencyString);
+        for (String i : jobStr) {
+            if(name.isEmpty() || employer.getValue().isEmpty() || location.getValue().isEmpty() || positionType.getValue().isEmpty() || coreCompetency.getValue().isEmpty()) {
+                return "Data not available";
+            } else System.out.println(i);
+        }
+        return null;
+
     }
-}
+
+
+
+
+    }
+
