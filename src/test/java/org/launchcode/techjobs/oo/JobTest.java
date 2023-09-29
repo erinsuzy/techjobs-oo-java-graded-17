@@ -44,8 +44,11 @@ public class JobTest {
 
     @Test
     public void testToStringStartsAndEndsWithNewLine() {
-    String id = System.lineSeparator() + "ID: " + System.lineSeparator();
-    assertEquals(id, System.lineSeparator() + "ID: " + System.lineSeparator());
+        Job testJob = new Job ("Product tester", new Employer("ACME"),new Location("St. Louis"), new PositionType("QC"), new CoreCompetency("Persistance"));
+    String idStr = System.lineSeparator() + "ID: " + testJob.getId()+ System.lineSeparator();
+    String nameStr = System.lineSeparator() + "Name: " + testJob.getName() + System.lineSeparator();
+     assertEquals(idStr, System.lineSeparator() + "ID: " + testJob.getId() + System.lineSeparator());
+     assertEquals(nameStr, System.lineSeparator() + "Name: " + testJob.getName() + System.lineSeparator());
     }
 
     @Test
